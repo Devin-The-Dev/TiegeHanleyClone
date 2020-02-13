@@ -5,7 +5,7 @@ body {
 
 .navbar {
     background-color: #000000!important;
-    border-bottom-color: #979797!important;
+    border-bottom: 1px solid hsla(0,0%,100%,.5);
 }
 
 .navbar a {
