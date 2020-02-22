@@ -3,6 +3,8 @@ body {
     color: #fff;
 }
 
+/* Footer */
+
 .navbar {
     background-color: #000000!important;
     border-bottom: 1px solid hsla(0,0%,100%,.5);
@@ -20,3 +22,30 @@ body {
     color: #fff;
 }
 
+/* Main */
+
+main form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .form-group, main .btn, main a, main p {
+    width: 25%;
+    margin: 0 10%;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid hsla(0,0%,100%,.5);
+}
+
+footer a {
+    color: #fff!important;
+}
+
+footer .list-group-item {
+    background-color: #000;
+}
