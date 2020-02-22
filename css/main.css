@@ -3,23 +3,36 @@ body {
     color: #fff;
 }
 
-/* Footer */
-
-.navbar {
-    background-color: #000000!important;
-    border-bottom: 1px solid hsla(0,0%,100%,.5);
-}
-
-.navbar a {
-    color: #fff!important;
-}
-
 .btn {
     background-color: #43b02a;
 }
 
 .btn-outline-success {
     color: #fff;
+}
+
+/* Header */
+
+header {
+    min-height: 70px;
+}
+
+.navbar {
+    background-color: #000000!important;
+    border-bottom: 1px solid hsla(0,0%,100%,.5);
+    padding: 0 10%;
+}
+
+.navbar a {
+    color: #fff!important;
+}
+
+.navbar div span a {
+    padding-left: 25px;
+}
+
+.navbar div form button {
+    padding: 10px 28px;
 }
 
 /* Main */
