@@ -62,3 +62,7 @@ footer a {
 footer .list-group-item {
     background-color: #000;
 }
+
+.footer-section {
+    float: left;
+}
